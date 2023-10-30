@@ -53,7 +53,7 @@
                                 </td>
                                 <td style="padding:0px;margin:0px;">
                                     <p class="profile-title">Administrator</p>
-                                    <p class="profile-subtitle">admin@edoc.com</p>
+                                    <p class="profile-subtitle">admin@healthassured.com</p>
                                 </td>
                             </tr>
                             <tr>
@@ -175,37 +175,22 @@
                         <table width="93%" class="sub-table scrolldown"  style="border-spacing:0;">
                         <thead>
                         <tr>
-                                <th class="table-headin">
-                                    
-                                
-                                Name
-                                
-                                </th>
-                                <th class="table-headin">
-                                    
-                                
-                                    NIC
-                                    
-                                </th>
-                                <th class="table-headin">
-                                
-                            
-                                Telephone
-                                
-                                </th>
-                                <th class="table-headin">
-                                    Email
-                                </th>
-                                <th class="table-headin">
-                                    
-                                    Date of Birth
-                                    
-                                </th>
-                                <th class="table-headin">
-                                    
-                                    Events
-                                    
-                                </tr>
+                            <th class="table-headin">
+                            Name
+                            </th>    
+                            <th class="table-headin">
+                            Telephone    
+                            </th>
+                            <th class="table-headin">
+                            Email
+                            </th>
+                            <th class="table-headin">
+                            Date of Birth      
+                            </th>
+                            <th class="table-headin">
+                            Events
+                            </th>        
+                        </tr>
                         </thead>
                         <tbody>
                         
@@ -237,23 +222,19 @@
                                     $pid=$row["pid"];
                                     $name=$row["pname"];
                                     $email=$row["pemail"];
-                                    $nic=$row["pnic"];
                                     $dob=$row["pdob"];
                                     $tel=$row["ptel"];
                                     
                                     echo '<tr>
-                                        <td> &nbsp;'.
-                                        substr($name,0,35)
-                                        .'</td>
-                                        <td>
-                                        '.substr($nic,0,12).'
+                                        <td> &nbsp;
+                                        '.substr($name,0,35).'
                                         </td>
                                         <td>
-                                            '.substr($tel,0,10).'
+                                        '.substr($tel,0,10).'
                                         </td>
                                         <td>
                                         '.substr($email,0,20).'
-                                         </td>
+                                        </td>
                                         <td>
                                         '.substr($dob,0,10).'
                                         </td>
@@ -294,7 +275,6 @@
             $row=$result->fetch_assoc();
             $name=$row["pname"];
             $email=$row["pemail"];
-            $nic=$row["pnic"];
             $dob=$row["pdob"];
             $tele=$row["ptel"];
             $address=$row["paddress"];
@@ -347,16 +327,6 @@
                             <tr>
                                 <td class="label-td" colspan="2">
                                 '.$email.'<br><br>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="label-td" colspan="2">
-                                    <label for="nic" class="form-label">NIC: </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="label-td" colspan="2">
-                                '.$nic.'<br><br>
                                 </td>
                             </tr>
                             <tr>

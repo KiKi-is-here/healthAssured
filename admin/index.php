@@ -57,7 +57,7 @@
                                 </td>
                                 <td style="padding:0px;margin:0px;">
                                     <p class="profile-title">Admin</p>
-                                    <p class="profile-subtitle">admin@health.com</p>
+                                    <p class="profile-subtitle">admin@healthassured.com</p>
                                 </td>
                             </tr>
                             <tr>

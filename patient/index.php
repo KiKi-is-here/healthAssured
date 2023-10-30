@@ -26,7 +26,7 @@
 <body>
     <?php
 
-    
+
 
     session_start();
 
@@ -56,8 +56,8 @@
     $username=$userfetch["pname"];
 
 
-    //echo $userid;
-    //echo $username;
+    echo $userid;
+    echo $username;
     
     ?>
     <div class="container">

@@ -38,7 +38,7 @@ if($_POST){
         'fname'=>$_POST['fname'],
         'lname'=>$_POST['lname'],
         'address'=>$_POST['address'],
-        'nic'=>$_POST['nic'],
+        // 'nic'=>$_POST['nic'],
         'dob'=>$_POST['dob']
     );
 
@@ -87,16 +87,16 @@ if($_POST){
                     <input type="text" name="address" class="input-text" placeholder="Address" required>
                 </td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td class="label-td" colspan="2">
                     <label for="nic" class="form-label">NIC: </label>
                 </td>
-            </tr>
-            <tr>
+            </tr> -->
+            <!-- <tr>
                 <td class="label-td" colspan="2">
                     <input type="text" name="nic" class="input-text" placeholder="NIC Number" required>
                 </td>
-            </tr>
+            </tr> -->
             <tr>
                 <td class="label-td" colspan="2">
                     <label for="dob" class="form-label">Date of Birth: </label>
