@@ -39,12 +39,15 @@
 
     //import database
     include("../connection.php");
+
     $sqlmain= "select * from patient where pemail=?";
     $stmt = $database->prepare($sqlmain);
     $stmt->bind_param("s",$useremail);
     $stmt->execute();
+
     $result = $stmt->get_result();
-    $userfetch=$userrow->fetch_assoc();
+
+    $userfetch=$result->fetch_assoc();
     $userid= $userfetch["pid"];
     $username=$userfetch["pname"];
 
@@ -95,7 +98,7 @@
                 
                 <tr class="menu-row" >
                     <td class="menu-btn menu-icon-session menu-active menu-icon-session-active">
-                        <a href="schedule.php" class="non-style-link-menu non-style-link-menu-active"><div><p class="menu-text">Scheduled Sessions</p></div></a>
+                        <a href="schedule.php" class="non-style-link-menu non-style-link-menu-active"><div><p class="menu-text">Book an appointment</p></div></a>
                     </td>
                 </tr>
                 <tr class="menu-row" >

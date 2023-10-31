@@ -112,7 +112,7 @@
                 
                 <tr class="menu-row" >
                     <td class="menu-btn menu-icon-session">
-                        <a href="schedule.php" class="non-style-link-menu"><div><p class="menu-text">Scheduled Sessions</p></div></a>
+                        <a href="schedule.php" class="non-style-link-menu"><div><p class="menu-text">Book an appointment</p></div></a>
                     </td>
                 </tr>
                 <tr class="menu-row" >
@@ -407,10 +407,12 @@
             </div>
             '; 
         }elseif($action=='view'){
-            $sqlmain= "select * from doctor where docid=?";
+
+            $sqlmain = "select * from doctor where docid=?";
             $stmt = $database->prepare($sqlmain);
             $stmt->bind_param("i",$id);
             $stmt->execute();
+
             $result = $stmt->get_result();
             $row=$result->fetch_assoc();
             $name=$row["docname"];
@@ -467,16 +469,16 @@
                                 '.$email.'<br><br>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="label-td" colspan="2">
-                                    <label for="nic" class="form-label">NIC: </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="label-td" colspan="2">
-                                '.$nic.'<br><br>
-                                </td>
-                            </tr>
+                            // <tr>
+                            //     <td class="label-td" colspan="2">
+                            //         <label for="nic" class="form-label">NIC: </label>
+                            //     </td>
+                            // </tr>
+                            // <tr>
+                            //     <td class="label-td" colspan="2">
+                            //     '.$nic.'<br><br>
+                            //     </td>
+                            // </tr>
                             <tr>
                                 <td class="label-td" colspan="2">
                                     <label for="Tele" class="form-label">Telephone: </label>

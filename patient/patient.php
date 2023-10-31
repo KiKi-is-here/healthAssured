@@ -244,12 +244,12 @@
                                 Name
                                 
                                 </th>
-                                <th class="table-headin">
+                                <!-- <th class="table-headin">
                                     
                                 
                                     NIC
                                     
-                                </th>
+                                </th> -->
                                 <th class="table-headin">
                                 
                             
