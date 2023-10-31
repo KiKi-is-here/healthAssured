@@ -99,10 +99,10 @@ CREATE TABLE IF NOT EXISTS `patient` (
 
 --
 -- Dumping data for table `patient`
---
+
 
 INSERT INTO `patient` (`pid`, `pemail`, `pname`, `ppassword`, `paddress`, `pnic`, `pdob`, `ptel`) VALUES
-(1, 'patient@healthassured.com', 'Test Patient', '123', 'Sri Lanka', '0000000000', '2000-01-01', '0120000000'),
+(1, 'patient@healthassured.com', 'Test Patient', '123', 'Sri Lanka', '0000000000', '2000-01-01', '0120000000');
 
 
 
