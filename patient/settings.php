@@ -196,7 +196,7 @@
                                                     
                                                 </div><br>
                                                 <div class="h3-dashboard"  style="font-size: 15px;">
-                                                    View Personal information About Your Account
+                                                    View Personal information About your Account
                                                 </div>
                                         </div>
                                                 
@@ -221,7 +221,7 @@
                                                     
                                                 </div><br>
                                                 <div class="h3-dashboard"  style="font-size: 15px;">
-                                                    Will Permanently Remove your Account
+                                                    This will permanently remove your Account
                                                 </div>
                                         </div>
                                                 
@@ -252,7 +252,7 @@
                         <h2>Are you sure?</h2>
                         <a class="close" href="settings.php">&times;</a>
                         <div class="content">
-                            You want to delete Your Account<br>('.substr($nameget,0,40).').
+                            Do you want to delete your account?<br>('.substr($nameget,0,40).').
                             
                         </div>
                         <div style="display: flex;justify-content: center;">
@@ -443,16 +443,7 @@
                                         
                                     </tr>
                                     
-                                    <tr>
-                                        <td class="label-td" colspan="2">
-                                            <label for="nic" class="form-label">NIC: </label>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="label-td" colspan="2">
-                                            <input type="text" name="nic" class="input-text" placeholder="NIC Number" value="'.$nic.'" required><br>
-                                        </td>
-                                    </tr>
+                                    
                                     <tr>
                                         <td class="label-td" colspan="2">
                                             <label for="Tele" class="form-label">Telephone: </label>
@@ -523,7 +514,7 @@
                             <h2>Edit Successfully!</h2>
                             <a class="close" href="settings.php">&times;</a>
                             <div class="content">
-                                If You change your email also Please logout and login again with your new email
+                                If you changed your email please logout and login again with your new email
                                 
                             </div>
                             <div style="display: flex;justify-content: center;">
