@@ -481,7 +481,7 @@
                                     </tr>
                                     <tr>
                                         <td class="label-td" colspan="2">
-                                            <input type="password" name="password" class="input-text" placeholder="Defind a Password" required><br>
+                                            <input type="password" name="password" class="input-text" placeholder=" Enter your password" required><br>
                                         </td>
                                     </tr><tr>
                                         <td class="label-td" colspan="2">
@@ -490,7 +490,7 @@
                                     </tr>
                                     <tr>
                                         <td class="label-td" colspan="2">
-                                            <input type="password" name="cpassword" class="input-text" placeholder="Conform Password" required><br>
+                                            <input type="password" name="cpassword" class="input-text" placeholder="Confirm Password" required><br>
                                         </td>
                                     </tr>
                                     
