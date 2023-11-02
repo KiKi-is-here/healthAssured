@@ -167,7 +167,7 @@
                             <h3>Book an appointment now</h3>
                             <form action="schedule.php" method="post" style="display: flex">
 
-                                <input type="search" name="search" class="input-text " placeholder="Search Doctor and We will Find The Session Available" list="doctors" style="width:45%;">&nbsp;&nbsp;
+                                <input type="search" name="search" class="input-text " placeholder="Search a doctor and we will find the session available" list="doctors" style="width:45%;">&nbsp;&nbsp;
                                 
                                 <?php
                                     echo '<datalist id="doctors">';

@@ -240,8 +240,8 @@
                                         ?>
                                     </p>
                                     <p style="padding-bottom:19px;padding-left:50px;font-size:15px;font-weight:500;color:#212529e3;line-height: 20px;">
-                                        Here's Quick access to Upcoming Appointments until 7 days<br>
-                                        More details available in @Appointment section.
+                                        Here's a quick access to upcoming appointments for 7 days<br>
+                                        More details are available in Appointment section.
                                     </p>
 
                                 </td>
@@ -252,8 +252,8 @@
                                         ?>
                                     </p>
                                     <p style="padding-bottom:19px;text-align:right;padding-right:50px;font-size:15px;font-weight:500;color:#212529e3;line-height: 20px;">
-                                        Here's Quick access to Upcoming Sessions that Scheduled until 7 days<br>
-                                        Add,Remove and Many features available in @Schedule section.
+                                        Here's quick access to upcoming sessions that are scheduled for 7 days<br>
+                                        Add, view or remove sessions from Schedule section.
                                     </p>
                                 </td>
                             </tr>
